@@ -92,7 +92,6 @@ class GAN:
         plt.savefig(f"{output_dir}/epoch_{epoch}.png")
         plt.close()
 
-
 # Запуск обучения
 latent_dim = 100
 gan = GAN(latent_dim)
